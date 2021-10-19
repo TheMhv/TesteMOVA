@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="./vendor/autoload.php"
+         colors="true"
+         verbose="true">
+     <php>
+         <ini name="display_errors" value="On" />
+     </php>
+
+    <testsuite name="Teste dos dias">
+        <directory suffix="Test.php">tests</directory>
+    </testsuite>
+</phpunit>

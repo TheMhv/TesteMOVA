@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+.container {
+    background: rgb(245, 245, 255);
+    border: 1px solid rgb(185, 185, 190);
+    padding: 0.01em 16px;
+    border-radius: 16px;
+}
+
+.title {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
